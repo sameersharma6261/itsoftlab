@@ -1,0 +1,820 @@
+/* General Section Styling */
+.careers-section {
+    /* background: linear-gradient(to right, #007bff, #0056b3); */
+    margin-top: 70px;
+  /* padding: 64px 0; */
+}
+
+.open-positions {
+  background-color: #ffffff;
+  padding: 34px 0;
+}
+
+.employee-benefits{
+  /* background-color: #0000009f; */
+  position: relative;
+  z-index: 2;
+  padding: 20px 0;
+  
+  backdrop-filter: blur(6px);
+}
+
+.cccontainer {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  padding: 150px 0px;
+}
+
+.kkkk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cccontiner{
+  width: 100%;
+  text-align: center;
+}
+
+.ccconnntainer{
+  width: 100%;
+  text-align: center;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 8px;
+}
+
+.section-titlee{
+  color: white;
+}
+
+       
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  .containerrr {
+    width: 100%;
+    padding: 0px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    /* background: linear-gradient(to right, #007bff, #0056b3); */
+    color: white;
+    margin-top: 60px;
+    padding: 150px 20px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+
+
+.section-titleee {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f4f6f8;
+  margin-bottom: 16px;
+}
+
+.section-divider {
+  width: 80px;
+  height: 4px;
+  background-color: #2563eb;
+  margin: 0 auto;
+}
+
+.section-text {
+  font-size: 18px;
+  padding: 5px;
+  color: #5a5a5a;
+  margin-bottom: 16px;
+}
+
+.section-textt{
+  color: white;
+  padding: 5px;
+}
+
+/* Careers Section */
+.conttttent {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.careers-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.careers-text {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* Why Join Section */
+.why-join-section {
+  background-color: #ffffff;
+  padding: 64px 0;
+}
+
+.text-content {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.imagggge {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  /* height: auto; */
+}
+
+/* Benefits List */
+.benefits-list {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  /* display: grid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-left: 10px; */
+  grid-template-columns: 1fr;
+  /* gap: 6px; */
+}
+
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon-container {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.sectionn-title {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #2563eb;
+}
+
+.benefit-text {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 12px;
+}
+
+/* Open Positions */
+.positions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+
+/* Application Process */
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.step-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #2564eb8c;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: #e9e9e9;
+}
+
+/* CTA Section */
+.cctta-section {
+  /* background-color: #1b1b1b; */
+  color: white;
+  background: linear-gradient(to right, #007bff, #0056b3);
+    padding: 10px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.cctta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cctta-text {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 1rem;
+}
+
+.cctta-button {
+  background-color: white;
+  color: #2563eb;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.cctta-button:hover {
+  background-color: #e0e7ff;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .text-content {
+    flex: 1;
+  }
+
+  .image-container {
+    flex: 1;
+    text-align: right;
+  }
+
+  .benefits-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .positions-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .positions-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Styles */
+.wwwhy-join-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  position: relative;
+  z-index: 2;
+}
+
+.wwcccontiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wwcontent-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.wwtext-content {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.wwsection-title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.wwsection-text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.wwimage-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wwimagggge {
+  width: 100%;
+  max-width: 500px;  /* Limit image size */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Styles for smaller screens */
+@media (max-width: 768px) {
+  .wwcontent-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wwtext-content {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .wwsection-title {
+    font-size: 2rem;
+  }
+
+  .wwsection-text {
+    font-size: 1rem;
+  }
+
+  .wwimage-container {
+    max-width: 80%;
+  }
+
+  .wwimagggge {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Employee Benefits Section Styles */
+.wwwemployee-benefits {
+  background-color: #f4f7fa00;
+  backdrop-filter: blur(6px);
+  padding: 4rem 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.wwwccontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wwwsection-header {
+  margin-bottom: 3rem;
+}
+
+.wwwsection-titleee {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.wwwsection-divider {
+  width: 50px;
+  height: 2px;
+  background-color: #3b82f6; /* Blue color */
+  margin: 0.5rem auto;
+}
+
+.wwwsection-textt {
+  font-size: 1.2rem;
+  color: #ffffff;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.wwwbenefits-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid for responsive items */
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+.wwwbenefit-item {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  height: 150px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.wwwbenefit-item:hover {
+  transform: translateY(-5px);
+}
+
+.wwwicon-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 50%;
+}
+
+.wwwicon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.wwwbenefit-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .wwwsection-titleee {
+    font-size: 2rem;
+  }
+
+  .wwwsection-textt {
+    font-size: 1rem;
+  }
+
+  .wwwbenefits-list {
+    grid-template-columns: 1fr; /* Stack items vertically on small screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Application Process Section Styles */
+.aaaapplication-process {
+  /* background-color: #f7fafc; */
+  backdrop-filter: blur(6px);
+  padding: 0.5rem 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.aaaccconntainer {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.aaasection-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.aaasectionn-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.aaasection-divider {
+  width: 50px;
+  height: 2px;
+  background-color: #3b82f6;
+  margin: 0.5rem auto;
+}
+
+.aaaprocess-steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.aaasteps-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 30px;
+}
+
+.aaastep {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aaastep:hover {
+  transform: translateY(-5px);
+}
+
+.aaastep-icon {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3b82f6;
+  background-color: #e2e8f0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.aaastep-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.aaastep-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .aaasectionn-title {
+    font-size: 2rem;
+  }
+
+  .aaasection-divider {
+    width: 40px;
+  }
+
+  .aaaprocess-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aaastep {
+    width: 100%;
+    max-width: 350px; /* Make the steps fill more of the screen on smaller devices */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resume-resume-form-container {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.resume-form-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.resume-form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-form-container input,
+.resume-form-container textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #aaa;
+}
+
+.resume-form-container .grid {
+  display: flex;
+  gap: 10px;
+}
+
+.resume-form-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.resume-form-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.resume-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+/* loader.css */
+/* loader.css */
+
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark transparent bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loader-popup {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  background-color: white;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
