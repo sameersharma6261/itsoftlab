@@ -522,13 +522,11 @@ function HomePage() {
 
 
   const teamMembers = [
-
     {
       name: "Rahul Chourasiya",
       position: "FullStack Developer",
-      image:
-        "/images/rahul.png",
-      bio: "As a Cybersecurity Professional, I bring together penetration testing, network defense, and incident response to build secure and resilient digital environments. I help organizations detect vulnerabilities, protect critical infrastructure, and align with global security standards.",
+      image: "/images/rahul.png",
+      bio: "As a FullStack Developer, I build robust, scalable web applications from front-end interfaces to back-end systems. I specialize in JavaScript frameworks, RESTful APIs, and modern databases to deliver seamless user experiences. With a strong foundation in both client and server-side technologies.",
       social: {
         // linkedin: "#",
         // twitter: "#",
@@ -538,217 +536,152 @@ function HomePage() {
 
     {
       name: "Fazleen Deena",
-      position: "UI/UX Designer",
-      image:
-        "/images/ff1.png",
-      bio: "passionate about crafting intuitive and visually stunning user experiences. I specialize in Figma, Adobe XD, and responsive design, helping tech teams deliver apps that users love to use.",
-      social: {
-
-      },
+      position: "product Manager",
+      image: "/images/ff1.png",
+      bio: "As a Product Manager, I bridge the gap between user needs and technical solutions. With a keen eye for design and deep collaboration with development teams, I turn complex ideas into products that are intuitive, engaging, and scalable.",
+      social: {},
     },
     {
       name: "Nikhil Basrani",
       position: "AI and Cloud Engineer",
-      image:
-        "/images/nikhil.png",
+      image: "/images/nikhil.png",
       bio: "Hey, I’m Specializes in bringing ML models to life, training and deploying on AWS and GCP to turn scalable solutions and algorithms into real-world applications.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
       name: "Sameer Sharma",
       position: "FullStack Developer",
-      image:
-        "/images/sameer.png",
+      image: "/images/sameer.jpg",
       bio: "As a Full-Stack Developer, I design and develop end-to-end web applications, combining efficient backend logic with intuitive frontend interfaces, while ensuring scalability, performance, and seamless user experience.",
-      social: {
-
-      },
+      social: {},
     },
     {
       name: "Swati Mishra",
       position: "Mern Developer",
-      image:
-        "/images/swati.png",
+      image: "/images/swati.png",
       bio: " I'm a MERN Stack Developer specializing in MongoDB, Express.js, React, and Node.js. I build modern, fast, and secure web applications tailored to client requirements with clean, maintainable code.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
-      name: "Aryan Sharma",
-      position: "Full Stack Developer",
-      image:
-        "/images/ff4.png",
-      bio: "Hi, I’m Aryan Sharma— I build fast, scalable web apps using React, Node.js, and MongoDB. From designing user interfaces to building robust APIs, I specialize in turning client ideas into high-performing full-stack products.",
-      social: {
-
-      },
+      name: " Mathew Forster",
+      position: "Data Analyst",
+      image: "/images/ff4.png",
+      bio: "Hi, I’m Mathew Forster—a Data Analyst passionate about transforming raw data into actionable insights. With expertise in tools like SQL, Python, Excel, and Tableau, I specialize in uncovering trends, optimizing business performance, and delivering clear, data-driven recommendations.",
+      social: {},
     },
 
     {
       name: "Smita Choudhary",
       position: "Mern Developer",
-      image:
-        "/images/smita.png",
+      image: "/images/smita.png",
       bio: "She is skilled MERN developer, known for delivering exceptional MERN projects that are both robust and efficient. She has a strong command over API integration, ensuring seamless communication between front-end and back-end systems.",
-      social: {
-
-      },
+      social: {},
     },
     {
       name: "Pratham Verma",
       position: "Lead Developer",
-      image:
-        "/images/pratham.png",
+      image: "/images/pratham.jpg",
       bio: "As a software engineer, I specialize in transforming complex requirements into efficient, scalable solutions, with a strong focus on code quality, performance, and continuous improvement.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
       name: "Sofia Rossi",
       position: "Data Scientist",
-      image:
-        "/images/ff2.png",
+      image: "/images/ff2.png",
       bio: "Hello, I’m Sofia Rossi — I transform raw data into actionable insights using Python, SQL, and machine learning. From building recommendation engines to customer segmentation, I help businesses become data-driven.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
-      name: " Kelvin Smith",
+      name: " Johnson Minz",
       position: "DevOps & Cloud Infrastructure Engineer",
-      image:
-        "/images/kelvin.jpeg",
+      image: "/images/kelvin.jpeg",
       bio: "automate deployment pipelines and manage scalable infrastructures on AWS, Azure, and Kubernetes. My work ensures your product scales smoothly from MVP to millions of users",
-      social: {
+      social: {},
+    },
 
-      },
+    {
+      name: "Harshit Nigam",
+      position: "FullStack Java Developer",
+      image: "/images/harshit.jpg",
+      bio: "Highly skilled in Java, React, Spring Boot, and modern web technologies. With expertise in both front-end and back-end development, specializing in building dynamic, scalable applications and delivering high-quality solutions.",
+      social: {},
     },
 
     {
       name: "Rishita Chaturvedi",
       position: "Mern Developer",
-      image:
-        "/images/rishita.png",
+      image: "/images/rishita.png",
       bio: "Rishita has exceptional expertise in creating intuitive and visually appealing, consistently delivering high-quality work. She is highly skilled in translating user requirements into seamless interfaces that provide an outstanding user experience. ",
-      social: {
-
-      },
-    },
-    {
-      name: "Harshit Nigam",
-      position: "FullStack Java Developer",
-      image:
-        "/images/harshit.png",
-      bio: "Highly skilled in Java, React, Spring Boot, and modern web technologies. With expertise in both front-end and back-end development, specializing in building dynamic, scalable applications and delivering high-quality solutions.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
       name: "Mohit Maleshiya",
       position: "FullStack Developer",
-      image:
-        "/images/mohit.png",
+      image: "/images/mohit.jpeg",
       bio: "Full Stack Next.js, Java, MERN Developer, skilled in building scalable and responsive web applications. Passionate about clean code, UI/UX, and solving real-world problems through modern web technologies.",
-      social: {
+      social: {},
+    },
 
-      },
+    {
+      name: "Ashutosh Dhayade",
+      position: "Account Manager",
+      image: "/images/ashutosh.png",
+      bio: "Experienced in managing key accounts, building strong client relationships, and developing strategies that drive business growth. Skilled at aligning client needs with solutions, resolving issues efficiently, and identifying opportunities to expand revenue and improve retention.",
+      social: {},
     },
 
     {
       name: "Freya Olsen",
       position: "Mobile App Developer (Flutter & React Native)",
-      image:
-        "/images/ff5.png",
+      image: "/images/ff5.png",
       bio: "Hey, I’m Freya Olsen — I build cross-platform mobile apps that are fast, beautiful, and user-friendly. Whether it’s a startup MVP or enterprise app, I deliver pixel-perfect mobile solutions that scale.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
       name: "Vishwas Dangar",
       position: "FullStack Developer",
-      image:
-        "/images/vishwas.png",
+      image: "/images/vishwas.png",
       bio: "From designing responsive interfaces to building powerful backend systems, I develop full-stack applications that are both functional and future-ready. I specialize in crafting intuitive user experiences, scalable APIs, and clean, maintainable code.",
-      social: {
-
-      },
-    },
-  
-
-
-    {
-      name: "Ashutosh Dhayade",
-      position: "Account Manager",
-      image:
-        "/images/ashutosh.png",
-      bio: "Experienced in managing key accounts, building strong client relationships, and developing strategies that drive business growth. Skilled at aligning client needs with solutions, resolving issues efficiently, and identifying opportunities to expand revenue and improve retention.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
       name: "Priya Tiwari",
       position: "Business Analyst",
-      image:
-        "/images/priya.png",
+      image: "/images/priya.png",
       bio: "I'm a Business Analyst, helping bridge client needs with smart IT solutions to drive measurable business growth. I specialize in gathering and analyzing requirements, aligning cross-functional teams, and turning data into actionable insights.",
-      social: {
-
-      },
+      social: {},
     },
-
 
     {
       name: "Hritik Yadav",
-      position: "Business Analysis Pre Sales",
-      image:
-        "/images/hritik.png",
+      position: "Business Analyst(Pre Sales)",
+      image: "/images/hritik.jpeg",
       bio: "Fuelled by curiosity and driven by innovation, I turn complex ideas into impactful actions—blending tech, business, and AI to shape smarter solutions Business development expert and AI enthusiast.",
-      social: {
-
-      },
+      social: {},
     },
 
     {
       name: "Ethen James",
       position: "Cybersecurity Analyst",
-      image:
-        "/images/ethen.png",
+      image: "/images/ethen.png",
       bio: "Hi, I’m Ethen James — a security-first thinker with expertise in penetration testing, network security, and incident response. I help startups and enterprises safeguard their infrastructure and comply with global standards.",
-      social: {
-
-      },
+      social: {},
     },
-
-
 
     {
       name: "Niteen Yadav",
       position: "Business Analyst",
-      image:
-        "/images/nitin.png",
+      image: "/images/nitin.png",
       bio: "Passionate problem solver blending tech and strategy to turn ideas into impact and challenges into opportunities. I thrive on identifying innovative solutions that drive efficiency, streamline processes, and enhance business outcomes.",
-      social: {
-
-      },
+      social: {},
     },
-
-
-
-
   ];
 
 
@@ -864,11 +797,11 @@ function HomePage() {
       name: "Salesforce",
       logo: "/images/n1.png",
     },
-    {
-      id: 40,
-      name: "Salesforce",
-      logo: "/images/aws.png",
-    },
+    // {
+    //   id: 40,
+    //   name: "Salesforce",
+    //   logo: "/images/aws.png",
+    // },
     {
       id: 25,
       name: "Salesforce",
