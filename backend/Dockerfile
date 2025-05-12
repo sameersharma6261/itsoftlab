@@ -24,3 +24,4 @@ ENV NODE_ENV=production
 
 # Start the application (update the entry point if needed)
 CMD ["node", "index.js"]
+
