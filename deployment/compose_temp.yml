@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  backend:
+    image: "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:${BACKEND_TAG}"
+    container_name: "gogas_backend_${ENVIRONMENT}_${COLOR}"
+    env_file:
+      - backend/.env
+    ports:
+      - "${HOST_BACKEND_PORT}:5300"
+    restart: always
+    # networks:
+    #   - "gogas_network"
+    
+
+  frontend:
+    image: "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:${FRONTEND_TAG}"
+    container_name: "gogas_frontend_${ENVIRONMENT}_${COLOR}"
+    env_file:
+      - frontend/.env
+    ports:
+      - "${HOST_FRONTEND_PORT}:3300"
+    stdin_open: true
+    tty: true
+    restart: always
+    # networks:
+    #   - "gogas_network"
+
+# networks:
+#   gogas_network:
+#     name: "gogas_network_${ENVIRONMENT}_${COLOR}"
+#     driver: bridge

@@ -1,4 +1,3 @@
-
 require("dotenv").config();
 const express = require("express");
 const nodemailer = require("nodemailer");
@@ -10,7 +9,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5300;
 
 // Middleware
 app.use(cors());
@@ -30,7 +29,7 @@ if (!fs.existsSync("uploads")) {
 }
 
 // Route
-app.post("/send-email", upload.single("attachment"), async (req, res) => {
+app.post("/api/send-email", upload.single("attachment"), async (req, res) => {
   const { name, email, phone, subject, message } = req.body;
   const pdfBuffer = req.pdfBuffer ? req.pdfBuffer.buffer : null;
 
@@ -54,24 +53,40 @@ app.post("/send-email", upload.single("attachment"), async (req, res) => {
             📧 Email: ${email}
             📞 Phone: ${phone}
               📝 Message: ${message}`,
-              attachments: pdfBuffer
-              ? [{ filename: req.pdfBuffer.originalname, content: pdfBuffer }]
-              : [],
+      attachments: pdfBuffer
+        ? [{ filename: req.pdfBuffer.originalname, content: pdfBuffer }]
+        : [],
     };
 
-   await transporter.sendMail(mailOptions);
-
+    await transporter.sendMail(mailOptions);
 
     // Delete uploaded pdfBuffer after sending
     if (pdfBuffer && fs.existsSync(pdfBuffer.path)) {
       fs.unlinkSync(pdfBuffer?.path);
     }
 
-    res.status(200).json({ success: true, message: "Email sent successfully!" });
+    res
+      .status(200)
+      .json({ success: true, message: "Email sent successfully!" });
   } catch (error) {
     console.error("Email send failed:", error);
     res.status(500).json({ success: false, message: "Email send failed." });
   }
+});
+
+app.get("/api/health", async (req, res) => {
+  return res.status(200).json({
+    status: "ok",
+    message: "API is running",
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+  });
+});
+
+app.get("/api/version", async (req, res) => {
+  return res.status(200).json({
+    version: process.env.APP_VERSION || "Unknown",
+  });
 });
 
 app.listen(PORT, () => {
