@@ -20,8 +20,8 @@ services:
   frontend:
     image: "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:${FRONTEND_TAG}"
     container_name: "itsoftlab_frontend_${ENVIRONMENT}_${COLOR}"
-    env_file:
-      - frontend/.env
+    # env_file:
+    #   - frontend/.env
     ports:
       - "${HOST_FRONTEND_PORT}:3300"
     stdin_open: true
