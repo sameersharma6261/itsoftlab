@@ -1,5 +1,5 @@
 import React from "react";
-import {  Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import ServicesPage from "./components/ServicesPage";
@@ -36,38 +36,44 @@ function App() {
   return (
     <>
       <AnimatedBackground />
-        <Cursor />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/medichart" element={<Medichart />} />
-          <Route path="/redcarpet" element={<Redcarpet />} />
-          <Route path="/orderEasy" element={<Ordereasy />} />
-          <Route path="/MediScan" element={<Mediscan />} />
-          <Route path="/cylinder" element={<Cylinder />} />
-          <Route path="/realitify" element={<Realitify />} />
-          <Route path="/invoice" element={<Invoice />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/imageexcel" element={<ImageExcel />} />
-          <Route path="/bulkemail" element={<BulkEmail />} />
-          <Route path="/crmcarwash" element={<CrmCarWash />} />
-          <Route path="/crmlaundry" element={<CrmLaundry />} />
-          <Route path="/crmsaloon" element={<CrmSaloon />} />
-          <Route path="/hrmskidz" element={<HrmsKidz />} />
-          <Route path="/waterjarmanagement" element={<WaterJarManagement />} />
-          <Route path="/crm" element={<Crm />} />
-          <Route path="/hrms" element={<Hrms />} />
-          <Route path="/" element={<HomePage />} />
-          <Route path="/aboutpage" element={<AboutPage />} />
-          <Route path="/servicespage" element={<ServicesPage />} />
-          <Route path="/careerpage" element={<CareerPage />} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/privacypage" element={<PrivacyPage />} />
-          <Route path="/termpage" element={<TermPage />} />
-          <Route path="/appp" element={<Appp />} />
-          <Route path="/companies" element={<Companies />} />
-          <Route path="/qrblack" element={<QrBlack />} />
-          <Route path="/StartContact" element={<StartContact />} />
-        </Routes>
+      <Cursor />
+      <ScrollToTop />
+      <Routes>
+        <Route
+          path="/version"
+          element={<>{process.env?.REACT_APP_VERSION || "Unknown"}</>}
+        />
+        <Route path="/health" element={<>OK</>} />
+
+        <Route path="/medichart" element={<Medichart />} />
+        <Route path="/redcarpet" element={<Redcarpet />} />
+        <Route path="/orderEasy" element={<Ordereasy />} />
+        <Route path="/MediScan" element={<Mediscan />} />
+        <Route path="/cylinder" element={<Cylinder />} />
+        <Route path="/realitify" element={<Realitify />} />
+        <Route path="/invoice" element={<Invoice />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/imageexcel" element={<ImageExcel />} />
+        <Route path="/bulkemail" element={<BulkEmail />} />
+        <Route path="/crmcarwash" element={<CrmCarWash />} />
+        <Route path="/crmlaundry" element={<CrmLaundry />} />
+        <Route path="/crmsaloon" element={<CrmSaloon />} />
+        <Route path="/hrmskidz" element={<HrmsKidz />} />
+        <Route path="/waterjarmanagement" element={<WaterJarManagement />} />
+        <Route path="/crm" element={<Crm />} />
+        <Route path="/hrms" element={<Hrms />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/aboutpage" element={<AboutPage />} />
+        <Route path="/servicespage" element={<ServicesPage />} />
+        <Route path="/careerpage" element={<CareerPage />} />
+        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/privacypage" element={<PrivacyPage />} />
+        <Route path="/termpage" element={<TermPage />} />
+        <Route path="/appp" element={<Appp />} />
+        <Route path="/companies" element={<Companies />} />
+        <Route path="/qrblack" element={<QrBlack />} />
+        <Route path="/StartContact" element={<StartContact />} />
+      </Routes>
     </>
   );
 }
