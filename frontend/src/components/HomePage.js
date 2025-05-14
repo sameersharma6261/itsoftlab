@@ -627,6 +627,14 @@ function HomePage() {
       social: {},
     },
 
+      {
+      name: "Neha Gautam",
+      position: "usiness Development Manager",
+      image: "/images/neha.png",
+      bio: "Hi, I'm Neha — a Techno-Business Consultant turned Business Development Manager with over 6 years of experience in the IT industry. I specialize in bridging technology and strategy to drive business growth, foster strong client relationships, and deliver impactful digital solutions.",
+      social: {},
+    },
+
     {
       name: "Ashutosh Dhayade",
       position: "Account Manager",
@@ -682,6 +690,8 @@ function HomePage() {
       bio: "Passionate problem solver blending tech and strategy to turn ideas into impact and challenges into opportunities. I thrive on identifying innovative solutions that drive efficiency, streamline processes, and enhance business outcomes.",
       social: {},
     },
+
+   
   ];
 
 
