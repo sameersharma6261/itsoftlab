@@ -558,7 +558,7 @@ function HomePage() {
     },
     {
       name: "Swati Mishra",
-      position: "Mern Developer",
+      position: "Mern Stack",
       image: "/images/swati.png",
       bio: " I'm a MERN Stack Developer specializing in MongoDB, Express.js, React, and Node.js. I build modern, fast, and secure web applications tailored to client requirements with clean, maintainable code.",
       social: {},
@@ -576,7 +576,7 @@ function HomePage() {
       name: "Smita Choudhary",
       position: "Mern Developer",
       image: "/images/smita.png",
-      bio: "She is skilled MERN developer, known for delivering exceptional MERN projects that are both robust and efficient. She has a strong command over API integration, ensuring seamless communication between front-end and back-end systems.",
+      bio: "She is skilled MERN Developer, known for delivering exceptional MERN projects that are both robust and efficient. She has a strong command over API integration, ensuring seamless communication between front-end and back-end systems.",
       social: {},
     },
     {
@@ -629,7 +629,7 @@ function HomePage() {
 
       {
       name: "Neha Gautam",
-      position: "usiness Development Manager",
+      position: "Business Development Manager",
       image: "/images/neha.png",
       bio: "Hi, I'm Neha — a Techno-Business Consultant turned Business Development Manager with over 6 years of experience in the IT industry. I specialize in bridging technology and strategy to drive business growth, foster strong client relationships, and deliver impactful digital solutions.",
       social: {},
