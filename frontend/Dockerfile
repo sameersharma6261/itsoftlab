@@ -10,8 +10,8 @@ RUN npm install
 COPY . .
 
 
-ARG REACT_APP_API_BASE_URL=http://itsoftlab.com/api
-ENV REACT_APP_API_BASE_URL=http://itsoftlab.com/api
+ARG REACT_APP_API_BASE_URL=https://itsoftlab.com/api
+ENV REACT_APP_API_BASE_URL=https://itsoftlab.com/api
 
 ARG REACT_APP_VERSION
 ENV REACT_APP_VERSION=$REACT_APP_VERSION
