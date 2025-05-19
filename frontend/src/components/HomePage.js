@@ -560,7 +560,7 @@ function HomePage() {
       name: "Swati Mishra",
       position: "Mern Stack",
       image: "/images/swati.png",
-      bio: " I'm a MERN Stack Developer specializing in MongoDB, Express.js, React, and Node.js. I build modern, fast, and secure web applications tailored to client requirements with clean, maintainable code.",
+      bio: " I'm a Mern Stack Developer specializing in MongoDB, Express.js, React, and Node.js. I build modern, fast, and secure web applications tailored to client requirements with clean, maintainable code.",
       social: {},
     },
 
@@ -599,7 +599,7 @@ function HomePage() {
       name: " Johnson Minz",
       position: "DevOps & Cloud Infrastructure Engineer",
       image: "/images/kelvin.jpeg",
-      bio: "automate deployment pipelines and manage scalable infrastructures on AWS, Azure, and Kubernetes. My work ensures your product scales smoothly from MVP to millions of users",
+      bio: "Automate deployment pipelines and manage scalable infrastructures on AWS, Azure, and Kubernetes. My work ensures your product scales smoothly from MVP to millions of users",
       social: {},
     },
 
@@ -669,7 +669,7 @@ function HomePage() {
 
     {
       name: "Hritik Yadav",
-      position: "Business Analyst(Pre Sales)",
+      position: "Business Analyst (Pre Sales)",
       image: "/images/hritik.jpeg",
       bio: "Fuelled by curiosity and driven by innovation, I turn complex ideas into impactful actions—blending tech, business, and AI to shape smarter solutions Business development expert and AI enthusiast.",
       social: {},
