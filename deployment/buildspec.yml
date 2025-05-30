@@ -25,7 +25,7 @@ phases:
 
       - echo "🔹 Exporting REACT_APP_* vars"
       - |
-        for VAR in REACT_APP_BACKEND_URL ; do
+        for VAR in REACT_APP_API_BASE_URL ; do
           # Get the value from the .env file and export it
           VAR_VALUE=$(grep -E "^$VAR=" app.env | cut -d'=' -f2-)
           eval export $VAR="$VAR_VALUE"
@@ -39,7 +39,7 @@ phases:
 
       - |
         docker build \
-         --build-arg REACT_APP_BACKEND_URL="$REACT_APP_BACKEND_URL" \
+         --build-arg REACT_APP_API_BASE_URL="$REACT_APP_API_BASE_URL" \
          --build-arg REACT_APP_VERSION="$TAG_NAME" \
          --build-arg NODE_ENV="$ENVIRONMENT" \
          -t $FRONTEND_TAG -f frontend/Dockerfile \
