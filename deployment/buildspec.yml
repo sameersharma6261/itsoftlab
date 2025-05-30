@@ -42,8 +42,8 @@ phases:
          --build-arg REACT_APP_BACKEND_URL="$REACT_APP_BACKEND_URL" \
          --build-arg REACT_APP_VERSION="$TAG_NAME" \
          --build-arg NODE_ENV="$ENVIRONMENT" \
-         -t $FRONTEND_TAG -f react-admin-dashboard-master/Dockerfile \
-         react-admin-dashboard-master
+         -t $FRONTEND_TAG -f frontend/Dockerfile \
+         frontend
 
       - echo "🔹 Building backend Docker image..."
       - |
