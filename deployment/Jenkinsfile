@@ -97,7 +97,7 @@ pipeline {
             steps {
                 script {
                     // Determine which S3 keys to use based on the environment
-                    if (env.ENV == 'production') {
+                    if (env.ENVIRONMENT == 'production') {
                         env.FRONTEND_SECRET_KEY = "${env.ITSOFTLAB_FRONTEND_PRODUCTION_ENV_S3_KEY}.env"
                         env.BACKEND_SECRET_KEY = "${env.ITSOFTLAB_BACKEND_PRODUCTION_ENV_S3_KEY}.env"
             } else {
