@@ -294,7 +294,6 @@ pipeline {
 
                             echo "====VARIABLES_START===="
                             echo "WORKSPACE_DIR=\$WORKSPACE_DIR"
-                            echo "BACKEND_SECRET_NAME=\$BACKEND_SECRET_NAME"
                             echo "CURRENT_COLOR=\$CURRENT_COLOR"
                             echo "NEW_COLOR=\$NEW_COLOR"
                             echo "HOST_FRONTEND_PORT=\$HOST_FRONTEND_PORT"
@@ -327,7 +326,6 @@ pipeline {
                         }
                     }
 
-                    env.BACKEND_SECRET_NAME  = variables.BACKEND_SECRET_NAME
                     env.CURRENT_COLOR        = variables.CURRENT_COLOR
                     env.NEW_COLOR            = variables.NEW_COLOR
                     env.HOST_FRONTEND_PORT   = variables.HOST_FRONTEND_PORT
