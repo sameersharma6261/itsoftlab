@@ -1,6 +1,7 @@
 # Use a lightweight Node.js image
 FROM public.ecr.aws/docker/library/node:20-alpine 
 
+
 # Set working directory
 WORKDIR /app
 
