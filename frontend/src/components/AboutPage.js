@@ -15,6 +15,8 @@ const LeadershipHero: React.FC = () => {
         </p>
         
         <div className="abbprofile-card">
+
+          {/* mam */}
           <div className="abbprofile-image">
             <div className="abbimage-placeholder">
               <img src="/images/m.jpeg" alt="Monika Ahirwal" />
@@ -22,12 +24,38 @@ const LeadershipHero: React.FC = () => {
             
             <div className="abbprofile-info">
               <h2>Monika Ahirwal</h2>
-              <p>Chief Executive Officer</p>
+              <p>Co-Founder & Chief Executive Officer</p>
               <p>Monika Ahirwal is the dynamic CEO and visionary leader of IT Softlab. With over 15 years of experience in the business and technology sectors, Monika has built a reputation for her strategic thinking, leadership, and ability to drive growth. A post-graduate by education, she has applied her strong foundation in management to successfully lead a technology-driven company.</p>
               <p>Monika’s unique perspective, combining a deep understanding of business operations with a focus on technology, has been instrumental in building IT Softlab into a global IT solutions provider. Her leadership style is marked by a customer-first mentality, innovation, and an unwavering commitment to delivering high-quality, scalable solutions for businesses of all sizes.</p>
 
               <div className="abbsocial-links">
                 <a href="https://www.linkedin.com/in/monika-ahirwal-14471232b/" aria-label="LinkedIn Profile">
+                  <Linkedin size={20} />
+                </a>
+                {/* <a href="#email" aria-label="Email">
+                  <Mail size={20} />
+                </a>
+                <a href="/contactus" aria-label="Phone">
+                  <Phone size={20} />
+                </a> */}
+              </div>
+            </div>
+          </div>
+
+          {/* sir */}
+           <div className="abbprofile-image">
+            <div className="abbimage-placeholder">
+              <img src="/images/rahulsir.png" alt="Rahul Ahirwal" />
+            </div>
+            
+            <div className="abbprofile-info">
+              <h2>Rahul Ahirwal</h2>
+              <p>Co-Founder & Chief Technical Officer</p>
+              <p>Rahul Ahirwal spearheads the company’s technology vision and innovation. With 17+ years in IT and an M.Tech from IIT Roorkee, he brings deep expertise in cloud, DevOps, AI, and enterprise platforms. He leads product architecture, engineering, and IT governance—ensuring secure, scalable, and future-ready solutions for diverse industries.
+              Expertise: Product Engineering · Cloud & DevOps · SaaS Platforms · AI/ML · Enterprise Systems · Cybersecurity · Technical Strategy · Innovation.</p>
+
+              <div className="abbsocial-links">
+                <a href="https://www.linkedin.com/in/rahul-ahirwal-a062a71a2/" aria-label="LinkedIn Profile">
                   <Linkedin size={20} />
                 </a>
                 {/* <a href="#email" aria-label="Email">
@@ -63,7 +91,7 @@ const LeadershipHero: React.FC = () => {
               </div>
             </div>
             <a href="/contactus" className="abbconnect-button">
-              Connect with Monika Ahirwal →
+              Connect with Us→
             </a>
           </div>
         </div>
@@ -132,9 +160,9 @@ export default function AboutPage() {
           <h2>Our Story</h2>
           <p>
           A Company by RM Group Of Companies
-In early 2015, IT Softlab was born with a mission to address a critical gap in the market — affordable IT solutions for startups, MSMEs, and small businesses. Many of these businesses had innovative ideas and huge potential but faced difficulties in finding the right IT support at an affordable cost. The need for a trusted IT partner was evident, and this need sparked the creation of IT Softlab.
-Starting with a small but dedicated team, we set out to provide businesses with scalable, reliable, and cost-effective IT solutions. Our goal was simple: help businesses focus on their growth and marketing efforts while we took care of their IT needs.
-          </p>
+        In early 2015, IT Softlab was born with a mission to address a critical gap in the market — affordable IT solutions for startups, MSMEs, and small businesses. Many of these businesses had innovative ideas and huge potential but faced difficulties in finding the right IT support at an affordable cost. The need for a trusted IT partner was evident, and this need sparked the creation of IT Softlab.
+        Starting with a small but dedicated team, we set out to provide businesses with scalable, reliable, and cost-effective IT solutions. Our goal was simple: help businesses focus on their growth and marketing efforts while we took care of their IT needs.
+                  </p>
          
           <p>
           Since our inception, IT Softlab has grown into a global IT powerhouse, proudly serving clients from different industries across the world. Our CEO, Monika Ahirwal, has played an instrumental role in shaping our journey. With over 15 years of experience and a strong post-graduate education, Monika's leadership and vision have guided us to where we are today — a trusted IT partner delivering innovative, high-quality solutions to businesses of all sizes.
@@ -1389,6 +1417,7 @@ body {
 .abbprofile-image {
   display: flex;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .abbimage-placeholder {

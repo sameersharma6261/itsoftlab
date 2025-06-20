@@ -395,7 +395,7 @@ function Appp() {
                   {activeCase.results.map((result, index) => (
                     <div key={index} className="result-card">
                       <BarChart2 className="icon" />
-                      <p>{result}</p>iougiioerjgioejoefj;oergp
+                      <p>{result}</p>
                     </div>
                   ))}
                 </div>
@@ -429,6 +429,14 @@ function Appp() {
             />
           ))}
         </div>
+        <style>
+          {`
+          .contact-btn{
+            text-decoration: none;
+  text-transform: none;
+          }
+          `}
+        </style>
       </div>
     </>
   );
