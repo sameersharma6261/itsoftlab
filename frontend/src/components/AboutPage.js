@@ -159,7 +159,6 @@ export default function AboutPage() {
         <div className="story-text">
           <h2>Our Story</h2>
           <p>
-          A Company by RM Group Of Companies
         In early 2015, IT Softlab was born with a mission to address a critical gap in the market — affordable IT solutions for startups, MSMEs, and small businesses. Many of these businesses had innovative ideas and huge potential but faced difficulties in finding the right IT support at an affordable cost. The need for a trusted IT partner was evident, and this need sparked the creation of IT Softlab.
         Starting with a small but dedicated team, we set out to provide businesses with scalable, reliable, and cost-effective IT solutions. Our goal was simple: help businesses focus on their growth and marketing efforts while we took care of their IT needs.
                   </p>
