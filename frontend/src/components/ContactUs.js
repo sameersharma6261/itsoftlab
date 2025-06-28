@@ -199,7 +199,7 @@ export default function ContactUs() {
                 <div className="map-placeholder">
                   <img
                     className="imggg"
-                    src="https://cdn.pixabay.com/photo/2018/01/31/06/56/map-3120436_1280.jpg"
+                    src="images/maps.png"
                     alt=""
                   />
                   <div className="map-application">

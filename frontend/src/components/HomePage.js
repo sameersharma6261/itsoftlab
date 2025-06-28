@@ -691,6 +691,14 @@ function HomePage() {
       social: {},
     },
 
+    {
+      name: "Khushi Chadda",
+      position: "UI/UX Developer",
+      image: "/images/khushi.png",
+      bio: "As a UI/UX developer, I specialize in designing intuitive, user-centric interfaces that bridge functionality with aesthetics. I focus on creating seamless user experiences through thoughtful design, usability testing, and responsive layout ensuring both accessibility and performance across platforms.",
+      social: {},
+    },
+
    
   ];
 
